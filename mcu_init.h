@@ -1,6 +1,6 @@
 
-#ifndef __MCU_HANDLER_H__
-#define __MCU_HANDLER_H__
+#ifndef __MCU_INIT_H__
+#define __MCU_INIT_H__
 
 #define W5500_SPI                       SPI2
 #define W5500_SPI_CLK                   RCC_APB1Periph_SPI2
