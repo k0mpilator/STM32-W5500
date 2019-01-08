@@ -1,11 +1,11 @@
 #include "stm32f10x_conf.h"
 #include "w5500_init.h"
-#include "mcu_init.h"
+#include "mcu_handler.h"
 
 void RCC_Configuration(void)
 {
 	/* SPI2 Clock Enable */
-	RCC_APB1PeriphClockCmd(RCC_APB1Periph_SPI2, ENABLE);
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_SPI1, ENABLE);
 
 	/* GPIOA, GPIOB, UART1 Clock Enable */
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA | RCC_APB2Periph_GPIOB | RCC_APB2Periph_USART1, ENABLE);
