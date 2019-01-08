@@ -1,3 +1,11 @@
+
+/*
+ * w5500w.c
+ *
+ *  Created on: 8 янв. 2019 г.
+ *      Author: kompilator
+ */
+
 #include "stm32f10x_conf.h"
 #include "w5500_init.h"
 #include "mcu_handler.h"
